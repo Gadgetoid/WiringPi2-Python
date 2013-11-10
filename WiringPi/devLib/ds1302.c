@@ -27,7 +27,7 @@
 #include <stdint.h>
 #include <stdarg.h>
 
-#include <wiringPi.h>
+#include "../wiringPi/wiringPi.h"
 
 #include "ds1302.h"
 

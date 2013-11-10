@@ -26,7 +26,7 @@
 //#include <stdlib.h>
 //#include <unistd.h>
 
-#include <wiringPi.h>
+#include "../wiringPi/wiringPi.h"
 
 #include "maxdetect.h"
 

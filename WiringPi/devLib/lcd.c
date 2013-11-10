@@ -28,7 +28,7 @@
 #include <stdlib.h>
 #include <stdarg.h>
 
-#include <wiringPi.h>
+#include "../wiringPi/wiringPi.h"
 
 #include "lcd.h"
 

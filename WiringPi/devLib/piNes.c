@@ -22,7 +22,7 @@
  ***********************************************************************
  */
 
-#include <wiringPi.h>
+#include "../wiringPi/wiringPi.h"
 
 #include "piNes.h"
 

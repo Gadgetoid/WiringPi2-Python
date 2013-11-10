@@ -38,8 +38,8 @@
 #include <sys/ioctl.h>
 #include <linux/spi/spidev.h>
 
-#include <wiringPi.h>
-#include <wiringPiSPI.h>
+#include "../wiringPi/wiringPi.h"
+#include "../wiringPi/wiringPiSPI.h"
 
 #include "gertboard.h"
 

@@ -33,7 +33,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include <wiringPi.h>
+#include "../wiringPi/wiringPi.h"
 
 #include "font.h"
 #include "lcd128x64.h"

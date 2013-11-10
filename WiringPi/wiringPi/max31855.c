@@ -22,8 +22,8 @@
  ***********************************************************************
  */
 
-#include <wiringPi.h>
-#include <wiringPiSPI.h>
+#include "wiringPi.h"
+#include "wiringPiSPI.h"
 
 #include "max31855.h"
 
