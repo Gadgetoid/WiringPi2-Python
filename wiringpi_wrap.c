@@ -4398,6 +4398,9 @@ SWIGINTERN PyObject *_wrap_wiringPiSPIDataRW(PyObject *SWIGUNUSEDPARM(self), PyO
   }
   result = (int)wiringPiSPIDataRW(arg1,arg2,arg3);
   resultobj = SWIG_From_int((int)(result));
+  {
+    resultobj = SWIG_Python_AppendOutput(resultobj, PyString_FromStringAndSize((char *) arg2, result));
+  }
   return resultobj;
 fail:
   return NULL;

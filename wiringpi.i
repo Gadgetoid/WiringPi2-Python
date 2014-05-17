@@ -115,6 +115,10 @@ extern uint8_t shiftIn        (uint8_t dPin, uint8_t cPin, uint8_t order);
       $2 = PyString_Size($input);
 };
 
+%typemap(argout) (unsigned char *data) {
+      $result = SWIG_Python_AppendOutput($result, PyString_FromStringAndSize((char *) $1, result));
+};
+
 int wiringPiSPIGetFd  (int channel) ;
 int wiringPiSPIDataRW (int channel, unsigned char *data, int len) ;
 int wiringPiSPISetup  (int channel, int speed) ;
