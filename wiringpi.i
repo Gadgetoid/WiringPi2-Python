@@ -23,7 +23,7 @@
 #include "WiringPi/wiringPi/mcp23s17.h"
 #include "WiringPi/wiringPi/pcf8574.h"
 #include "WiringPi/wiringPi/pcf8591.h"
-#include "WiringPi/wiringPi/drc.h"
+#include "WiringPi/wiringPi/drcSerial.h"
 #include "WiringPi/wiringPi/softPwm.h"
 #include "WiringPi/wiringPi/softServo.h"
 #include "WiringPi/wiringPi/softTone.h"
@@ -155,7 +155,7 @@ extern int mcp23017Setup (const int pinBase, const int i2cAddress) ;
 extern int mcp23s08Setup (const int pinBase, const int spiPort, const int devId) ;
 extern int mcp23s17Setup (int pinBase, int spiPort, int devId) ;
 extern int mcp3002Setup (int pinBase, int spiChannel) ;
-extern int mcp3422Setup (int pinBase, int i2cAddress, int channels, int sampleRate, int gain) ;
+extern int mcp3422Setup (int pinBase, int i2cAddress, int sampleRate, int gain) ;
 extern int mcp4802Setup (int pinBase, int spiChannel) ;
 extern int pcf8574Setup (const int pinBase, const int i2cAddress) ;
 extern int pcf8591Setup (const int pinBase, const int i2cAddress) ;

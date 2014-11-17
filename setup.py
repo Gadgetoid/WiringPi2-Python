@@ -9,7 +9,7 @@ _wiringpi2 = Extension(
         'WiringPi/wiringPi/wiringPiSPI.c',
         'WiringPi/wiringPi/max31855.c',
         'WiringPi/wiringPi/max5322.c',
-        'WiringPi/wiringPi/drc.c',
+        'WiringPi/wiringPi/drcSerial.c',
         'WiringPi/wiringPi/sn3218.c',
         'WiringPi/wiringPi/mcp23s17.c',
         'WiringPi/wiringPi/pcf8591.c',

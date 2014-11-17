@@ -3,3 +3,5 @@ wiringpi2.egg-info/
 dist/
 __pycache__
 *.pyc
+wiringpi2.py
+wiringpi_wrap.c
