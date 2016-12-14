@@ -28,8 +28,8 @@
 #include <stdio.h>
 #include <stdint.h>
 
-#include <wiringPi.h>
-#include <mcp23s17.h>
+#include "../wiringPi/wiringPi.h"
+#include "../wiringPi/mcp23s17.h"
 
 #include "piFace.h"
 

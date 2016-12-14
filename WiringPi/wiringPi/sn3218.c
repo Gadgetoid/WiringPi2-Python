@@ -22,8 +22,8 @@
  ***********************************************************************
  */
 
-#include <wiringPi.h>
-#include <wiringPiI2C.h>
+#include "wiringPi.h"
+#include "wiringPiI2C.h"
 
 #include "sn3218.h"
 
